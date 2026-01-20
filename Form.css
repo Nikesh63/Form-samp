@@ -1,0 +1,57 @@
+body {
+    font-style: italic;
+    color: blue;
+    background-color: #060B23;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToC1hTn47XYxkysqXwGvRBcRSc_Fl0XP6nhw&s);
+
+}
+
+table {
+    height: 32%;
+    width: 25.6%;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: rgba(172, 255, 47, 0.483);
+
+}
+
+div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:
+        translate(-50%, -50%);
+}
+
+
+
+
+input {
+    border: 2px solid gray;
+    border-radius: rgb(128, 128, 128);
+    font-family: initial;
+    font-size: initial;
+
+    &:hover {
+        border-color: lightblue;
+    }
+
+    &:focus {
+        border-color: lightslategray;
+    }
+}
+
+img {
+    position: absolute;
+    top: 40%;
+    left: 58%;
+    transform:
+        translate(-40%, -58%);
+}
+
+form {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: #fff;
+}
